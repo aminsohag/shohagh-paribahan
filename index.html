@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shohag Paribahan</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a8144c5d0d.js" crossorigin="anonymous"></script>
+    <!-- tailwind daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+    <style>
+    .font-raleway{
+      font-family: "Raleway", serif;
+    }
+    .font-inter{
+        font-family: "Inter", serif;
+    }
+    </style>
+</head>
+<body>
+    <header class="container mx-auto">
+       <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <!-- <a class="btn btn-ghost text-xl">daisyUI</a> -->
+                <img class="w-[180px]" src="images/logo.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-lg font-semibold hover:text-red-300 ease-in-out duration-300">Home</a></li>
+                <li><a class="text-lg font-semibold hover:text-red-300 ease-in-out duration-300">About</a></li>
+                <li><a class="text-lg font-semibold hover:text-red-300 ease-in-out duration-300">Destination</a></li>
+                <li><a class="text-lg font-semibold hover:text-red-300 ease-in-out duration-300">Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn text-xl font-bold text-[#1DD100]">Bus
+                <img src="images/bus-icon.png" alt="">
+              </a>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                    <li><a class="text-lg font-semibold hover:text-red-300 ease-in-out duration-300">Home</a></li>
+                    <li><a class="text-lg font-semibold hover:text-red-300 ease-in-out duration-300">About</a></li>
+                    <li><a class="text-lg font-semibold hover:text-red-300 ease-in-out duration-300">Destination</a></li>
+                    <li><a class="text-lg font-semibold hover:text-red-300 ease-in-out duration-300">Search</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+       </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
